@@ -165,6 +165,9 @@ class Game():
 
                     count = 1
 
+                print("")
+                print("Нажмите на экран, чтоб продолжить или повторить; Enter, чтобы завершить")
+
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RETURN:
                     pygame.quit()
